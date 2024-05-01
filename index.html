@@ -1,9 +1,84 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <!---Header is typically not visible. Contains meta data of the html file-->
+        <title>Title of Web page</title>
     </head>
     <body>
-
+        <!--This is how to comment in html-->
+        <h1>Header 1 format</h1>
+        <h2>Header 2 format</h2>
+        <h3>Header 3 format</h3>
+        <br> <!--Break link-->
+        <h3>Unordered List</h3>
+        
+        <ul>
+            <!--Undorder List-->
+            <li>List item 1</li>
+            <li>List item 2</li>
+            <!--href adds a destination to go when clicked (# sets destiation to itslf)-->
+            <li><a href="#">Hyperlinked item 3 with no destination</a></li>
+        </ul>
+        <hr> <!--Horizontal line-->
+        <h2>Paragraph</h2>
+        <p>This is paragraph tab. You can type any text in here. Any text in here will show up as simple text. Text container. <i>You can also add italized tag to italisize text in the paragraph too. </i><b>Or bold text.</b></p>
+        <br>
+        <h2>Table</h2>
+        <!--The most simpliest type of tag formatting is to direclty format it in html in the tag itself-->
+        <table
+            border="10"
+            cellpadding="25"
+            cellspacing="5">
+            <tr> <!--Table row-->
+                <td> <!--Table data (column)-->
+                    <button>Table Button row 1 col 1</button>
+                </td>
+                <td>
+                    <button>Table Button row 1 col 2</button>
+                </td>
+                <td>
+                    <button>Table Button row 1 col 3</button>
+                </td>
+            </tr>
+            <tr> <!--Table row-->
+                <td> <!--Table data (column)-->
+                    <button>Table Button row 2 col 1</button>
+                </td>
+                <td>
+                    <button>Table Button row 2 col 2</button>
+                </td>
+                <td>
+                    <button>Table Button row 2 col 3</button>
+                </td>
+            </tr>
+        </table>
+        <hr>
+            <h3>Ordered List</h3>
+            <ol>
+                <li>List item 1</li>
+                <li>List item 2</li>
+                <li>List item 3</li>
+            </ol>
+            <h3>Embedded video with IFrame</h3>
+            <!--IFrame is a container for videos.
+                In order to embed a video (youtube), go to share, embed, and then copy the iframe into the html, -->
+            <<iframe width="560" height="315" src="https://www.youtube.com/embed/ccm6kRFyI50?si=suGu-0qcVGzvhdBk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <hr>
+            <h2>Form Element</h2>
+            <Form>
+                First Name:<br>
+                <input type="Text"><br><br>
+                <input type="Text"><br><br>
+                <!--Both button and input with submit type does the same function-->
+                <button>Submit Button</button>
+                <input type="submit" value="Submit Input">
+            </Form>
+            <hr>
+            <h2>Image</h2>
+            <!--Alt can be added in case the image was not able to loaded-->
+            <img src="Inosuke_Pic.png"
+                alt="Inosuke Pic that is not loading properly"
+                height="200"
+                width="400">
     </body>
 </html>
