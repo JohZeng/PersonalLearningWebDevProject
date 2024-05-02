@@ -1,0 +1,34 @@
+/* This is how to comment in CSS.*/
+
+/*There are multiple ways to style in css. Or also called selectors*/
+
+/*The first is to directly reference the element type. 
+Referencing element: <name of element type>
+Good if all the elements of a type need the same properties (i.e. body, h3 , etc)*/
+h3 {
+    color: coral;
+    text-align: center;
+}
+
+body {
+    background-color: whitesmoke;
+}
+
+/*The second way is to reference a 'Class' of a element. 
+Referencing class: .<name of class>. 
+Useful for updating only certain elements that are different types and should have same properties*/
+.firstEleClass {
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    margin: auto;
+    text-align: center;
+}
+
+/*The third way to reference a element is with id. 
+Referencing id: #<name of id>. 
+Should be used sparingly. Should be very specific and unique.*/
+#firstId {
+    color: darkred;
+    font-size: 40px;
+}

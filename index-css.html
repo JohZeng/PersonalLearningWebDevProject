@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Learn CSS</title>
+        <!--Internal CSS - defining a style sheet in the header-->
+        <style>
+            h2 {
+                color: paleturquoise;
+                border: 1px dotted purple;
+                padding: 15px;
+            }
+        </style>
+        <!--To add External CSS, will need to include the link element in the header -->
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <a href="index.html">Basic HTML file</a>
+        <!--Inline CSS - styling html directly in file-->
+        <h1 style = "color: red; border: 5px solid blue;">Header 1 - Inline CSS</h1>
+        <h2>Header 2 - Internal CSS</h2>
+        <hr>
+        <h3>Header 3 - External CSS</h3>
+        <!--To style with class, the element must have the class assigned to it-->
+        <div class="firstEleClass">Styled with element</div>
+        <!--To style with id, the element must have a id assigned to it-->
+        <div id="firstId"><p>Styled with ID</p></div>
+    </body>
+</html>
