@@ -32,3 +32,35 @@ Should be used sparingly. Should be very specific and unique.*/
     color: darkred;
     font-size: 40px;
 }
+
+/*Coloring Syntax*/
+#colorStyleName {
+    color: rebeccapurple;
+}
+#colorStyleHex { /*Takes values between 0-10 A-F*/
+    color: #1243ff;
+}
+#colorStyleRGB { /*Takes values between 0 - 255*/
+    color: rgb(255, 100, 255);
+}
+/*Gradients - Makeu sure to use background and not background-colors*/
+#gradientStyle {
+    color: white;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    background: linear-gradient(red, yellow); /*Defaults to up and down gradient*/
+    /*Text Shadow - vertical(px) horizontal(px) blur(px) color - last two are optional*/
+    text-shadow: 5px 5px 3px black;
+    /*Box Shadow - same as text shadow but for containers*/
+    box-shadow: 3px 3px 3px purple;
+}
+#gradientStyle2 {
+    color: purple;
+    width: 400px;
+    height: 100px;
+    text-align: center;
+    background: linear-gradient(to right,red, yellow); /*Can change the gradient to right to left or vise versa*/
+    text-shadow: 1px 1px 3px darkblue;
+
+}
