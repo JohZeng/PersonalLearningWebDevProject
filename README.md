@@ -10,3 +10,4 @@
 # 2. Internal Style Sheet - Where in the header of the html file, you can define the style sheet. Can clutter up code still
 # 3. External CSS - Creating a external CSS file that will keep all the styling. (Recommended)
 
+# Inspector/Developer tool can be used to review and see the backend of any html pages. This can also be used to see how it is seen in different browsers and mobile view.

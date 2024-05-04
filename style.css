@@ -12,6 +12,10 @@ h3 {
 
 body {
     background-color: whitesmoke;
+    /*Background image will stamp the image if its smaller than the browser. You can use other background property to format the image. You can uses these properties for any container*/
+    background-image: url("japanbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 /*The second way is to reference a 'Class' of a element. 
@@ -63,4 +67,8 @@ Should be used sparingly. Should be very specific and unique.*/
     background: linear-gradient(to right,red, yellow); /*Can change the gradient to right to left or vise versa*/
     text-shadow: 1px 1px 3px darkblue;
 
+}
+.borderImg {
+    border-right: 10px dashed red;
+    border-left: 10px solid blue;
 }
