@@ -72,3 +72,17 @@ Should be used sparingly. Should be very specific and unique.*/
     border-right: 10px dashed red;
     border-left: 10px solid blue;
 }
+/*Descendent Selectors - This will format all the list items inside a unordered list. Does not matter how many levels the list item is nested.*/
+ul li {
+    color: red;
+    font-size: 20px;
+}
+/*Child Selectors -  Will only affect the child items that is one level deep. All list items that is DIRECTLY under the unordered list will be affected.*/
+ul > li {
+    color: green;
+}
+
+/*Grouping Example*/
+h1, h2, .class, #id {
+    font-size: 30px;
+}
